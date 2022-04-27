@@ -1,6 +1,7 @@
 """
 3. Longest Substring Without Repeating Characters
-Time Submitted: 07/26/2021 11:09
+Time Submitted: 2021/07/26 11:09
+Program Language: Python
 """
 
 class Solution(object):
