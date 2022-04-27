@@ -1,3 +1,8 @@
+"""
+32. Longest Valid Parentheses
+Time Submitted: 2022/04/28 02:13
+Program Language: Python3
+"""
 class Solution:
     def longestValidParentheses(self, s: str) -> int:
         ans = []
