@@ -1,0 +1,19 @@
+class Solution:
+    def longestValidParentheses(self, s: str) -> int:
+        ans = []
+        for i in range(len(s)):
+            ans.append(0)   # create space
+            if i == 0:
+                continue
+            if s[i] == ")":
+                if s[i-1] == "(":
+                    ans[i] = ans[i-2] + 2
+                else:
+                    if (i-1-ans[i-1]) > -1 and s[i-1 - ans[i-1]] == "(":
+                        ans[i] = ans[i-1]+2 + ans[i-1-ans[i-1]-1]
+        print(ans)
+        return 0 if ans == [] else max(ans)
+            
+        
+                
+                        
