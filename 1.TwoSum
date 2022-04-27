@@ -1,6 +1,7 @@
 """
 1. Two Sum
 Submitted time: 07/10/2021 11:02
+Program Language: Python
 """
 class Solution(object):
     def twoSum(self, nums, target):
